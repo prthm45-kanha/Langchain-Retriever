@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[oc]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Vector DB & Cache
+chroma_db/
+my_chroma_db/
+*.parquet
+*.sqlite3
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS & IDE
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
